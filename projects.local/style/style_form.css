@@ -1,0 +1,47 @@
+body{background-color: #2c3e50;}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  
+  gap: 150px;
+}
+
+.container{display: block;
+  padding-left: 100px;
+}
+
+a {display: flex;
+  font-size: 18px;
+  color: #FFF;
+}
+
+a :hover {
+  color: #e74c3c;
+  transition: 1ms;
+}
+
+h1 {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  margin: 40px 0;
+}
+legend{
+  color: #FFF;
+  text-align: center;
+  font-size: large;
+}
+form{width:500px;margin-left: 100px;}
+input{text-align: center;
+  padding: 2%;
+  
+  font-size: 12px;
+  color: #FFF;
+}
+button {display:flex;
+  margin: 20px;
+  width:180px;
+}
